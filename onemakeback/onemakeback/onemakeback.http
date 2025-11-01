@@ -1,0 +1,6 @@
+@onemakeback_HostAddress = http://localhost:5078
+
+GET {{onemakeback_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
