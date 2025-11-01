@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Search, ShoppingCart, CircleUserRound } from "lucide-react";
 import "./globals.css";
+import Announcementbar from "@/components/AnnouncementBar";
 
 export const metadata: Metadata = {
   title: "OneMake | Todas as suas comprinhas por apenas R$ 10,007",
@@ -15,6 +16,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <div className="w-screen bg-pink-500 text-center py-1">
+          <Announcementbar />
+        </div>
         <header className="flex justify-between px-20 py-5">
           <div className="flex gap-8 items-center">
             <img

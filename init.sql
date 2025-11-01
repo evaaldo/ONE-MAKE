@@ -36,7 +36,6 @@ VALUES
     ('UNHAS', 'Esmaltes, cola unhas e muito mais'),
     ('CILIOS', 'Cilios postiços');
 
-
 INSERT INTO
     product (
         category_id,
