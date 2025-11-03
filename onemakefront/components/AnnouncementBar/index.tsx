@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const messages = [
-  "Tudo por apenas R$ 10,00",
+  "😍 Tudo por apenas R$ 10,00",
   "🚐 Frete grátis em pedidos acima de R$ 99!",
   "✨ Visite nossas unidades em Fortaleza!",
 ];
