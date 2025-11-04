@@ -23,7 +23,9 @@ export default function CategoryBar() {
   return (
     <ul className="flex justify-evenly px-10 py-6">
       {categories.map((category: CategoryProps) => (
-        <li className="font-semibold" key={category.id}>{category.name.toUpperCase()}</li>
+        <li className="text-black" key={category.id}>
+          <a href="/">{category.name.toUpperCase()}</a>
+        </li>
       ))}
     </ul>
   );
