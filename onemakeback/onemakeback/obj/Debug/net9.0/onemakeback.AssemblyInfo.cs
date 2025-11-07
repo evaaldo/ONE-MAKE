@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("onemakeback")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03a29292627787a435ad19075d44d9e10f9f34dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79ab8ac8d5ac4e9c58719d1769e4006468ca88e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("onemakeback")]
 [assembly: System.Reflection.AssemblyTitleAttribute("onemakeback")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

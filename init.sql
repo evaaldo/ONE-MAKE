@@ -1,6 +1,7 @@
 CREATE TABLE
     category (
         id SERIAL PRIMARY KEY,
+        slug VARCHAR(200) NOT NULL,
         name VARCHAR(100) NOT NULL,
         description VARCHAR(200),
         created_at TIMESTAMP NOT NULL DEFAULT NOW (),
@@ -22,19 +23,19 @@ CREATE TABLE
     );
 
 INSERT INTO
-    category (name, description)
+    category (slug, name, description)
 VALUES
-    ('PIJAMAS', 'Pijamas confortáveis'),
-    ('ACESSORIOS', 'Acessórios estilosos e úteis'),
-    ('SKINCARE', 'Cuidados de pele'),
-    ('BASE', 'Bases de rosto'),
-    ('BATONS', 'Variedades de batons'),
-    ('BLUSH', 'Blushs para maquiagem'),
-    ('CORPO', 'Hidratantes, body splash e muito mais'),
-    ('DELINEADOR', 'Maquiagem de olho'),
-    ('BLINDAGEM', 'Blindagem de maquiagem'),
-    ('UNHAS', 'Esmaltes, cola unhas e muito mais'),
-    ('CILIOS', 'Cilios postiços');
+    ('pijamas', 'PIJAMAS', 'Pijamas confortáveis'),
+    ('acessorios', 'ACESSORIOS', 'Acessórios estilosos e úteis'),
+    ('skincare', 'SKINCARE', 'Cuidados de pele'),
+    ('base', 'BASE', 'Bases de rosto'),
+    ('batons', 'BATONS', 'Variedades de batons'),
+    ('blush', 'BLUSH', 'Blushs para maquiagem'),
+    ('corpo', 'CORPO', 'Hidratantes, body splash e muito mais'),
+    ('delineador', 'DELINEADOR', 'Maquiagem de olho'),
+    ('blindagem', 'BLINDAGEM', 'Blindagem de maquiagem'),
+    ('unhas', 'UNHAS', 'Esmaltes, cola unhas e muito mais'),
+    ('cilios', 'CILIOS', 'Cilios postiços');
 
 INSERT INTO
     product (

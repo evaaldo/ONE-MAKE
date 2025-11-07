@@ -1,9 +1,11 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 interface CategoryProps {
   id: number;
+  slug: string;
   name: string;
   description: string;
   createdAt: string;
@@ -24,7 +26,7 @@ export default function CategoryBar() {
     <ul className="flex justify-evenly px-10 py-6">
       {categories.map((category: CategoryProps) => (
         <li className="text-black" key={category.id}>
-          <a href="/">{category.name.toUpperCase()}</a>
+          <Link href={category.slug ?? 'teste'}>{category.name.toUpperCase()}</Link>
         </li>
       ))}
     </ul>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Search, ShoppingCart, CircleUserRound } from "lucide-react";
 import "./globals.css";
 import Announcementbar from "@/components/AnnouncementBar";
@@ -23,11 +24,13 @@ export default function RootLayout({
           </div>
           <div className="flex justify-between px-20 py-5">
             <div className="flex gap-8 items-center">
-              <img
-                src="logo.png"
-                alt="Logo da OneMake"
-                className="rounded-full w-20 border"
-              />
+              <Link href="/">
+                <img
+                  src="logo.png"
+                  alt="Logo da OneMake"
+                  className="rounded-full w-20 border"
+                />
+              </Link>
               <div className="relative">
                 <Search
                   className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"

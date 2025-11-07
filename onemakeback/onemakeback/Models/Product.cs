@@ -9,6 +9,6 @@ public class Product
     public string? Price { get; set; }
     public required string ImagePath { get; set; }
     public int Storage {  get; set; }
-    public DateTime CreatedAt { get; set; }
-    public DateTime UpdatedAt { get; set; }
+    public DateTime Created_At { get; set; }
+    public DateTime Updated_At { get; set; }
 }

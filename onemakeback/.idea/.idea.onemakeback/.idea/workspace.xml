@@ -11,6 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9b28c65-07d9-482e-b1b5-2a1cfcfc6066" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.onemakeback/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.onemakeback/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onemakeback/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/Models/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onemakeback/Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/Models/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onemakeback/bin/Debug/net9.0/onemakeback.dll" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/bin/Debug/net9.0/onemakeback.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onemakeback/bin/Debug/net9.0/onemakeback.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/bin/Debug/net9.0/onemakeback.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.dll" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/ref/onemakeback.dll" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/ref/onemakeback.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/refint/onemakeback.dll" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/refint/onemakeback.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../onemakefront/components/CategoryBar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../onemakefront/components/CategoryBar/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762009974631</updated>
-      <workItem from="1762009976130" duration="9965000" />
+      <workItem from="1762009976130" duration="12794000" />
     </task>
     <servers />
   </component>
