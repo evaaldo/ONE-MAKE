@@ -1,8 +1,12 @@
 import { NextResponse } from "next/server";
+import { Params } from "./types";
 
-export async function GET() {
+export async function GET(request: Request, { params }: Params) {
   try {
-    const response = await fetch("http://localhost:5078/api/category");
+    const resolvedParams = await params;
+    const response = await fetch(
+      `http://localhost:5078/api/product/${resolvedParams.category}`
+    );
     const data = await response.json();
 
     if (!response.ok) {
@@ -18,10 +22,10 @@ export async function GET() {
     }
 
     if (data.error) {
-      return NextResponse.json(
+      NextResponse.json(
         {
           error: 500,
-          message: `Error on fetching categories data: ${data.error}`,
+          message: `Error on fetching data: ${data.error}`,
         },
         {
           status: 500,
@@ -31,11 +35,11 @@ export async function GET() {
 
     return NextResponse.json(data);
   } catch (error: unknown) {
-    const message = error instanceof Error ? error.message : String(error);
+    const message = error instanceof Error ? error : String(error);
     return NextResponse.json(
       {
         error: 500,
-        message: `Error on fetching categories data: ${message}`,
+        message: `Error on fetching data: ${message}`,
       },
       {
         status: 500,

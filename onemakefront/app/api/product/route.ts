@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 
 export async function GET() {
   try {
-    const response = await fetch("http://localhost:5078/api/category");
+    const response = await fetch("http://localhost:5078/api/product");
     const data = await response.json();
 
     if (!response.ok) {
@@ -21,7 +21,7 @@ export async function GET() {
       return NextResponse.json(
         {
           error: 500,
-          message: `Error on fetching categories data: ${data.error}`,
+          message: `Error on fetching data: ${data.error}`,
         },
         {
           status: 500,
@@ -35,11 +35,9 @@ export async function GET() {
     return NextResponse.json(
       {
         error: 500,
-        message: `Error on fetching categories data: ${message}`,
+        message: `Error on fetching data: ${message}`,
       },
-      {
-        status: 500,
-      }
+      { status: 500 }
     );
   }
 }

@@ -15,6 +15,8 @@ builder.Services.AddScoped<IDbConnection>(sp => new NpgsqlConnection(builder.Con
 
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 
+builder.Services.AddScoped<IProductService, ProductService>();
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>

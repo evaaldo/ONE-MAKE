@@ -15,10 +15,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.onemakeback/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.onemakeback/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onemakeback/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/Models/Category.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onemakeback/Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/Models/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onemakeback/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onemakeback/bin/Debug/net9.0/onemakeback.dll" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/bin/Debug/net9.0/onemakeback.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onemakeback/bin/Debug/net9.0/onemakeback.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/bin/Debug/net9.0/onemakeback.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.dll" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/onemakeback.sourcelink.json" afterDir="false" />
@@ -26,7 +28,14 @@
       <change beforePath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/refint/onemakeback.dll" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/refint/onemakeback.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onemakeback/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/onemakeback/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../onemakefront/app/NotFoundCustom.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../onemakefront/app/NotFoundCustom.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../onemakefront/app/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../onemakefront/app/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../onemakefront/app/api/category/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../onemakefront/app/api/category/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../onemakefront/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../onemakefront/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../onemakefront/components/CategoryBar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../onemakefront/components/CategoryBar/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../onemakefront/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../onemakefront/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../onemakefront/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../onemakefront/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,39 +50,43 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/onemakeback/Controllers/CategoryController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/onemakeback/Controllers/ProductController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/onemakeback/Models/Category.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/onemakeback/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/onemakeback/Models/ProductWithCategory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/onemakeback/Services/CategoryService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/onemakeback/Services/Interfaces/ICategoryService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/onemakeback/Services/Interfaces/IProductService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/onemakeback/Services/ProductService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="34sl56mrx3jBpWNlqa6CawjsB0L" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.onemakeback: Development.executor": "Run",
-    ".NET Launch Settings Profile.onemakeback: http.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.onemakeback: Development.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.onemakeback: http.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.onemakeback: Development">
     <configuration name="onemakeback: Development" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/onemakeback/onemakeback.csproj" />
@@ -115,7 +128,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762009974631</updated>
-      <workItem from="1762009976130" duration="12794000" />
+      <workItem from="1762009976130" duration="22946000" />
+      <workItem from="1762982466055" duration="5034000" />
     </task>
     <servers />
   </component>
